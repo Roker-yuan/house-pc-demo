@@ -40,9 +40,16 @@
     <el-form-item style="margin-left: 25px;margin-right: 25px">
       <el-input type="textarea" size="mini" v-model="form.desc" placeholder="对楼盘和户型还有什么要求"></el-input>
     </el-form-item>
+    <div style="margin-bottom: 15px;margin-top: 20px;font-size: small">
+      已帮助<span style="font-size: small;color: red">996</span>位客户成功购房
+    </div>
     <el-form-item>
       <el-button type="danger" round size="mini" @click="onSubmit">提交申请</el-button>
     </el-form-item>
+      <div class="nr" style="margin-bottom: 25px;margin-top: 10px;font-size: small">
+        <span style="font-size: large;color: red">帮你优质选房</span><br>
+        留下需求，为您挑选最满意的房源
+      </div>
   </el-form>
 </template>
 

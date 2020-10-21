@@ -5,15 +5,13 @@
               :span="24"
               cell-class-name="cellClassName"
               header-cell-class-name="headerCellClassName"
-              :header-row-style="{height:'10px'}"
-              :row-style="{height:'15px'}"
-              :cell-style="{padding:'1px'}"
+              :cell-style="cellStyle"
     >
       <el-table-column prop="name" label="楼盘名称" width="130"> </el-table-column>
       <el-table-column prop="address" label="地址" width="280"> </el-table-column>
       <el-table-column prop="area" label="区域" width="80"> </el-table-column>
       <el-table-column prop="price" label="单价" width="80"> </el-table-column>
-      <el-table-column prop="preferential" label="特惠" width="180" style="color: #f5043c"> </el-table-column>
+      <el-table-column prop="preferential" label="特惠" width="180" > </el-table-column>
       <el-table-column prop="state" label="状态" width="60"> </el-table-column>
       <el-table-column prop="consult" label="咨询"  width="65"> </el-table-column>
     </el-table>
@@ -76,6 +74,18 @@
               consult: '咨询'
             }]
           }
+      },
+      methods: {
+        cellStyle(row,column,rowIndex,columnIndex){//根据报警级别显示颜色
+          // console.log(row);
+          // console.log(row.column);
+          if(row.column.label==="特惠"){
+            return 'color:red'
+          }
+          if(row.column.label==="咨询"){
+            return 'color:red'
+          }
+        }
       }
     }
 </script>
