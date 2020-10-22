@@ -21,7 +21,7 @@
             images: [
               {
                 name: 'carousel01',
-                url: require('../../images/carousel/324988.jpg')
+                url: require('../../images/carousel/banner1.jpg')
               },
               {
                 name: 'carousel02',
@@ -29,7 +29,7 @@
               },
               {
                 name: 'carousel03',
-                url: require('../../images/carousel/1000981.jpg')
+                url: require('../../images/carousel/banner1.jpg')
               }
             ]
           }

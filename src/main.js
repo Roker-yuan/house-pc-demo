@@ -6,7 +6,9 @@ import router from './router'
 //导入 elementUI
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-
+//安装VUE 无限滚动
+import scroll from 'vue-seamless-scroll'
+Vue.use(scroll);
 Vue.use(ElementUI);
 Vue.config.productionTip = false
 

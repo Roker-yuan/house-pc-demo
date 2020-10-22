@@ -1,14 +1,15 @@
 <template>
-  <el-container>
+  <el-container class="main-container">
     <el-header>
       <Header></Header>
-
     </el-header>
     <el-main>
       <MainBody></MainBody>
     </el-main>
     <el-footer>Footer</el-footer>
+<!--    <el-backtop target=".page-component__scroll .el-scrollbar__wrapr" visibility-height="50"></el-backtop>-->
   </el-container>
+
 </template>
 
 <script>
@@ -21,6 +22,12 @@
 </script>
 
 <style scoped>
+  /*.main-container{*/
+  /*  width:100%;*/
+  /*  height:100vh;*/
+  /*  overflow-x:hidden ;*/
+  /*}*/
+
   .el-header {
     background-color: #fa0000;
     color: #333;
