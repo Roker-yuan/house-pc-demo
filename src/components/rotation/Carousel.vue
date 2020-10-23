@@ -7,7 +7,7 @@
         </el-carousel-item>
       </el-carousel>
     </div>
-    <el-card class="box-card" style="width: 30%;position: absolute;top: 400px; left: 40%;z-index: 20;background: rgba(36, 36, 36, 0.64);">
+    <el-card class="box-card" style="width: 30%;position: absolute;top: 400px; left: 35%;z-index: 20;background: rgba(36, 36, 36, 0.64);">
       <div class="c-search" >
         <el-select v-model="selectValue" placeholder="请选择">
           <el-option
@@ -50,11 +50,11 @@
               },
               {
                 name: 'carousel02',
-                url: require('../../images/carousel/banner1.jpg')
+                url: require('../../images/carousel/banner2.jpg')
               },
               {
                 name: 'carousel03',
-                url: require('../../images/carousel/banner1.jpg')
+                url: require('../../images/carousel/banner3.jpg')
               }
             ]
           },
