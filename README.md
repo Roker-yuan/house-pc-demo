@@ -1,6 +1,15 @@
 # house_pc_demo
-
 > 房屋买卖系统demo
+
+简介: 该项目是仿楼盘楼房买卖系统搭建的前端。
+
+> 语言&框架
+
+`vue.js`、`elementUI`
+
+> 效果预览
+
+
 
 ## Build Setup
 
@@ -18,4 +27,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

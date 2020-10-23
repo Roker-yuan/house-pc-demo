@@ -1,12 +1,14 @@
 <template>
   <el-container class="main-container">
     <el-header>
+
+
       <Header></Header>
     </el-header>
     <el-main>
       <MainBody></MainBody>
     </el-main>
-    <el-footer>Footer</el-footer>
+    <el-footer style="height: 80px;"><Footer></Footer></el-footer>
 <!--    <el-backtop target=".page-component__scroll .el-scrollbar__wrapr" visibility-height="50"></el-backtop>-->
   </el-container>
 
@@ -14,10 +16,11 @@
 
 <script>
   import Header from "../common/Header";
+  import Footer from "../common/Footer";
   import MainBody from "../main/MainBody";
     export default {
         name: "MainPage",
-      components: {Header,MainBody},
+      components: {Header,MainBody,Footer},
     }
 </script>
 
@@ -35,8 +38,8 @@
     line-height: 60px;
   }
   .el-footer{
-    background-color: #a7a5a5;
-    color: #333;
+    background-color: #2b2b2b;
+    color: #fcfbfb;
     text-align: center;
     line-height: 60px;
   }
